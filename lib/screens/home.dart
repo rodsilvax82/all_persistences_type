@@ -19,8 +19,18 @@ class HomeWidget extends StatelessWidget {
             title: const Text("SQLite"),
             subtitle: const Text("Lista de Pessoas"),
             trailing: const Icon(Icons.navigate_next),
-            onTap: (){
+            onTap: () {
               Navigator.pushNamed(context, "/sqlite");
+            },
+          ),
+          divisorListMain(),
+          ListTile(
+            leading: buildSvgIcon("images/db.svg"),
+            title: const Text("Floor"),
+            subtitle: const Text("Lista de Livros"),
+            trailing: const Icon(Icons.navigate_next),
+            onTap: () {
+              Navigator.pushNamed(context, "/floor");
             },
           ),
           divisorListMain()
