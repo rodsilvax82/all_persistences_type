@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858382864700",
+    "project_id": "aoj-firestore-2d5ea",
+    "storage_bucket": "aoj-firestore-2d5ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858382864700:android:2f6645b1a3afe5bd4c4e39",
+        "android_client_info": {
+          "package_name": "com.example.all_persistences_type"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858382864700-1codlicootv1319bn7496r7u8u6j7u1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBaEh2B2STVVOuInOqgYr2_krVXZA_XRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858382864700-1codlicootv1319bn7496r7u8u6j7u1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

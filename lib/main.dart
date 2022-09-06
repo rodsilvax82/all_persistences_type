@@ -1,8 +1,11 @@
+import 'package:all_persistences_type/floor/list.dart';
 import 'package:all_persistences_type/screens/home.dart';
 import 'package:all_persistences_type/sqlite/list.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -21,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/" :(context) => HomeWidget(),
         "/sqlite" :(context) => ListSQLiteWidget(),
+        "/floor" :(context) => ListFloorWidget(),
       });
   }
 }
@@ -72,3 +76,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+// repo: https://github.com/rafamazzucato/all_persistences_types_87_aoj
